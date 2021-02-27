@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/mybatis-generator-for-imooc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mybatis-generator-for-imooc/mybatis-generator-for-imooc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/mybatis-generator-for-imooc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/generatorConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/mybatis-generator-for-imooc.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo" />
+      <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources" />
+      <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper" />
+      <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/java" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

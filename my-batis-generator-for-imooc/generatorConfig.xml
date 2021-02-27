@@ -13,6 +13,7 @@
             <property name="mappers" value="com.imooc.my.mapper.MyMapper"/>
         </plugin>
 
+
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
                         connectionURL="jdbc:mysql://localhost:3306/foodie-shop-dev"
                         userId="root"

@@ -20,8 +20,9 @@ public class MD5Utils {
 
 	public static void main(String[] args) {
 		try {
-			MD5Utils md5Utils = new MD5Utils();
-			String md5 = md5Utils.getMD5Str("imooc");
+//			MD5Utils md5Utils = new MD5Utils();
+//			String md5 = md5Utils.getMD5Str("imooc");
+			String md5 = getMD5Str("imooc");
 			System.out.println(md5);
 		} catch (Exception e) {
 			e.printStackTrace();

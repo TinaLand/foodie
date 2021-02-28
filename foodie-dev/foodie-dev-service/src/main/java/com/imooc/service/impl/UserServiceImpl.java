@@ -2,6 +2,7 @@ package com.imooc.service.impl;
 
 import com.imooc.mapper.UsersMapper;
 import com.imooc.pojo.Users;
+import com.imooc.pojo.bo.UserBo;
 import com.imooc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -28,5 +29,16 @@ public class UserServiceImpl implements UserService {
         Users result = usersMapper.selectOneByExample(userexample);
         return result == null ? false : true;
 
+    }
+
+    @Transactional(propagation = Propagation.REQUIRED)
+    @Override
+    public Users createUser(UserBo userBo) {
+        Users user = new Users();
+        user.setUsername(userBo.getUsername());
+        user.setPassword(user.getPassword());
+
+
+        return null;
     }
 }

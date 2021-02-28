@@ -10,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 @RestController // json object
-@RequestMapping("passport")
+@RequestMapping(value = "passport",  method = RequestMethod.POST)
 public class PassportController {
 
     @Autowired

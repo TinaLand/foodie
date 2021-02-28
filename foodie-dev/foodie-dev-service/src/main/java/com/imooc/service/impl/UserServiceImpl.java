@@ -1,10 +1,7 @@
 package com.imooc.service.impl;
 
-import com.imooc.mapper.StuMapper;
 import com.imooc.mapper.UsersMapper;
-import com.imooc.pojo.Stu;
 import com.imooc.pojo.Users;
-import com.imooc.service.StuService;
 import com.imooc.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,12 +18,14 @@ public class UserServiceImpl implements UserService {
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public boolean queryUsernameIsExist(String username) {
-        Example example = new Example(Users.class);
-        Example.Criteria userCriteria = example.createCriteria();
+        // Example 是要通过条件进行查询的
+        //Example example = new Example(Users.class);
+        Example userexample = new Example(Users.class);
+        Example.Criteria userCriteria = userexample.createCriteria();
         userCriteria.andEqualTo("username", username);
 
-        Users result = usersMapper.selectOneByExample(userCriteria);
-        //return result == null;
+        //Users result = usersMapper.selectOneByExample(userCriteria);
+        Users result = usersMapper.selectOneByExample(userexample);
         return result == null ? false : true;
 
     }

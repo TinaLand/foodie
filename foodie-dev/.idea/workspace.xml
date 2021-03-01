@@ -5,6 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-api/src/main/java/com/imooc/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-mapper/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-pojo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-api/src/main/java/com/imooc/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-api/src/main/java/com/imooc/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-api/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-mapper/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-pojo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/CarouselMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsCommentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsCommentsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsImgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsImgMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsParamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsParamMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsSpecMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsSpecMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrderItemsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrderItemsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrderStatusMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrderStatusMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrdersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/StuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/StuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/UserAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/UserAddressMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/my-batis-generator-for-imooc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/my-batis-generator-for-imooc-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/encodings.xml" beforeDir="false" />
@@ -20,6 +50,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -32,15 +70,60 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-common/src/main/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.splitter.proportion" value="0.35907724" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/foodie-dev-pojo/src/main/java/com/imooc/pojo" />
-      <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/resources" />
-      <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/java/com/imooc/mapper" />
-      <recent name="$PROJECT_DIR$/foodie-dev-mapper/src/main/java" />
+      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java" />
+      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/strategy" />
+      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/utils" />
+      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r" />
+      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/utils" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.controller" />
+      <recent name="com.imooc.service.impl" />
+      <recent name="com.imooc.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.Application" />
+      <module name="foodie-dev-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MD5Utils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.utils.MD5Utils" />
+      <module name="foodie-dev-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Application.MD5Utils" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,5 +135,35 @@
       <updated>1614454882241</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/PassportController.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

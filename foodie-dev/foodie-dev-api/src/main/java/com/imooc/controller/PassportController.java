@@ -4,10 +4,13 @@ package com.imooc.controller;
 import com.imooc.pojo.bo.UserBo;
 import com.imooc.service.UserService;
 import com.imooc.utils.IMOOCJSONResult;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+@Api(value = "register", tags = {"api for register and login"})
 @RestController // json object
 // key value pair must be added, otherwise, will have error
 @RequestMapping(value = "passport", method = RequestMethod.POST)
@@ -16,6 +19,7 @@ public class PassportController {
     @Autowired
     private UserService userService;
 
+    @ApiOperation(value = "check if user exist", notes = "check if user exist", httpMethod = "GET")
     @GetMapping("/usernameIsExist")
     public IMOOCJSONResult usernameIsExist(@RequestParam String username) {
 
@@ -31,7 +35,7 @@ public class PassportController {
         return IMOOCJSONResult.ok();
     }
 
-
+    @ApiOperation(value = "user register", notes = "user register", httpMethod = "POST")
     @PostMapping("/regist")
     //public IMOOCJSONResult regist(UserBo userBo) {
     public IMOOCJSONResult regist(@RequestBody UserBo userBo) {

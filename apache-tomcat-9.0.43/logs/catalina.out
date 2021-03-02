@@ -1,0 +1,51 @@
+/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/bin/catalina.sh: line 504: /Library/Java/Home/bin/java: No such file or directory
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Mar-2021 22:23:51.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.43
+01-Mar-2021 22:23:51.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 28 2021 20:25:45 UTC
+01-Mar-2021 22:23:51.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.43.0
+01-Mar-2021 22:23:51.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+01-Mar-2021 22:23:51.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+01-Mar-2021 22:23:51.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+01-Mar-2021 22:23:51.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/Home
+01-Mar-2021 22:23:51.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+01-Mar-2021 22:23:51.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+01-Mar-2021 22:23:51.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43
+01-Mar-2021 22:23:51.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43
+01-Mar-2021 22:23:51.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+01-Mar-2021 22:23:51.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+01-Mar-2021 22:23:51.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+01-Mar-2021 22:23:51.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+01-Mar-2021 22:23:51.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+01-Mar-2021 22:23:51.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/conf/logging.properties
+01-Mar-2021 22:23:51.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+01-Mar-2021 22:23:51.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+01-Mar-2021 22:23:51.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+01-Mar-2021 22:23:51.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+01-Mar-2021 22:23:51.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+01-Mar-2021 22:23:51.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43
+01-Mar-2021 22:23:51.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43
+01-Mar-2021 22:23:51.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/temp
+01-Mar-2021 22:23:51.775 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/tianhuihuang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+01-Mar-2021 22:23:52.066 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+01-Mar-2021 22:23:52.136 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [646] milliseconds
+01-Mar-2021 22:23:52.171 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+01-Mar-2021 22:23:52.171 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.43]
+01-Mar-2021 22:23:52.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/docs]
+01-Mar-2021 22:23:52.418 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/docs] has finished in [239] ms
+01-Mar-2021 22:23:52.418 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/manager]
+01-Mar-2021 22:23:52.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/manager] has finished in [30] ms
+01-Mar-2021 22:23:52.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/examples]
+01-Mar-2021 22:23:52.696 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/examples] has finished in [248] ms
+01-Mar-2021 22:23:52.696 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/ROOT]
+01-Mar-2021 22:23:52.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/ROOT] has finished in [14] ms
+01-Mar-2021 22:23:52.710 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/foodie-shop]
+01-Mar-2021 22:23:52.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/foodie-shop] has finished in [21] ms
+01-Mar-2021 22:23:52.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/host-manager]
+01-Mar-2021 22:23:52.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.43/webapps/host-manager] has finished in [17] ms
+01-Mar-2021 22:23:52.751 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+01-Mar-2021 22:23:52.757 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [621] milliseconds
+01-Mar-2021 22:32:57.549 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+01-Mar-2021 22:32:57.550 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+01-Mar-2021 22:32:57.554 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+01-Mar-2021 22:32:57.576 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+01-Mar-2021 22:32:57.612 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

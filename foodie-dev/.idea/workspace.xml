@@ -4,47 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-api/src/main/java/com/imooc/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-mapper/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-pojo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodie-dev2/foodie-dev2-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-api/src/main/java/com/imooc/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-api/src/main/java/com/imooc/controller/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-api/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-mapper/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-pojo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../foodieDev/foodieDev-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/CarouselMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/CategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsCommentsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsCommentsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsImgMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsImgMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsParamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsParamMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsSpecMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/ItemsSpecMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrderItemsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrderItemsMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrderStatusMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrderStatusMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrdersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/OrdersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/StuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/StuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/UserAddressMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/UserAddressMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/my-batis-generator-for-imooc-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../my-batis-generator-for-imooc/target/my-batis-generator-for-imooc-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/mybatis-generator-for-imooc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis-generator-for-imooc/mybatis-generator-for-imooc.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

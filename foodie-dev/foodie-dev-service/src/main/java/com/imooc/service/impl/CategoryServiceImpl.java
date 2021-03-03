@@ -2,8 +2,10 @@ package com.imooc.service.impl;
 
 import com.imooc.mapper.CarouselMapper;
 import com.imooc.mapper.CategoryMapper;
+import com.imooc.mapper.CategoryMapperCustom;
 import com.imooc.pojo.Carousel;
 import com.imooc.pojo.Category;
+import com.imooc.pojo.vo.CategoryVO;
 import com.imooc.service.CarouselService;
 import com.imooc.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,9 @@ public class CategoryServiceImpl implements CategoryService {
     @Autowired
     private CategoryMapper categoryMapper;
 
+    @Autowired
+    private CategoryMapperCustom categoryMapperCustom;
+
     @Transactional(propagation = Propagation.SUPPORTS)
     @Override
     public List<Category> queryAllRootLevelCat() {
@@ -31,5 +36,18 @@ public class CategoryServiceImpl implements CategoryService {
 
         List<Category> res = categoryMapper.selectByExample(example);
         return res;
+    }
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public List<CategoryVO> getSubCatList(Integer rootCatId) {
+//        Example example = new Example(Category.class);
+//        Example.Criteria criteria = example.createCriteria();
+//
+//        criteria.andEqualTo("id", rootCatId);
+
+//        List<CategoryVO> res = categoryMapperCustom.getSubCatList(rootCatId);
+//        return res;
+        return categoryMapperCustom.getSubCatList(rootCatId);
     }
 }

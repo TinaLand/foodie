@@ -43,11 +43,12 @@ spring:
 # mybatis 配置
 #
 ############################################################
-#mybatis:
+mybatis:
 #  type-aliases-package: com.imooc.pojo          # 所有POJO类所在包路径
 #  mapper-locations: classpath:mapper/*.xml      # mapper映射文件
-#  configuration:
-#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  ##  数据库查询内容， 也会被加在 log 里面
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
 #############################################################
 ##

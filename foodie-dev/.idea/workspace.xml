@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.24/logs/localhost_access_log.2021-03-01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.24/logs/localhost_access_log.2021-03-01.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.24/webapps/foodie-shop/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.24/webapps/foodie-shop/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.24/webapps/foodie-shop/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.24/webapps/foodie-shop/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imooc.log" beforeDir="false" afterPath="$PROJECT_DIR$/../imooc.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-22-12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-22-51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-22-52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-22-57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-22-59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-23-00" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-23-01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-23-03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-23-04" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

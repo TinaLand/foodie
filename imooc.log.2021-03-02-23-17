@@ -1,0 +1,8 @@
+2021-03-02 23:17:03 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-02 23:17:03 INFO  DispatcherServlet:547 - Completed initialization in 10 ms
+2021-03-02 23:17:03 INFO  ServiceLogAspect:56 - ====== start class com.imooc.service.impl.UserServiceImpl.queryUserForLogin ========
+2021-03-02 23:17:03 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-03-02 23:17:04 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2021-03-02 23:17:04 INFO  ServiceLogAspect:74 - ====end, takes: 379 ms====
+2021-03-02 23:17:04 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2021-03-02 23:17:19 INFO  CookieUtils:210 - ========== domainName: localhost ==========

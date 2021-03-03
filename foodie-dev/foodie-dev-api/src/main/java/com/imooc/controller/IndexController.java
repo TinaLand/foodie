@@ -1,0 +1,39 @@
+package com.imooc.controller;
+
+import com.imooc.enums.YesOrNo;
+import com.imooc.pojo.Carousel;
+import com.imooc.service.CarouselService;
+import com.imooc.utils.IMOOCJSONResult;
+import com.imooc.utils.JsonUtils;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import springfox.documentation.annotations.ApiIgnore;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import java.util.List;
+
+@RestController // json object
+@RequestMapping("index")
+@Api(value = "index", tags = {"register and login related apis"})
+public class IndexController {
+    //final static Logger logger = LoggerFactory.getLogger(IndexController.class);
+
+    @Autowired
+    private CarouselService carouselService;
+
+    @ApiOperation(value = "get index page carousel", notes = "get index page carousel", httpMethod = "GET")
+    //@GetMapping("/index")
+    @GetMapping("carousel")
+    public IMOOCJSONResult carousel() {
+        List<Carousel> list = carouselService.queryAll(YesOrNo.YES.type);
+        //return IMOOCJSONResult.ok(JsonUtils.);
+        return IMOOCJSONResult.ok(list);
+    }
+}

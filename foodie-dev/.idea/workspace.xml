@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../imooc.log" beforeDir="false" afterPath="$PROJECT_DIR$/../imooc.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-22-12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-22-51" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-22-52" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-22-57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-22-59" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-23-00" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-23-01" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-23-03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imooc.log.2021-03-02-23-04" beforeDir="false" />
-    </list>
+    <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +46,7 @@
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.imooc.enums" />
       <recent name="com.imooc.controller" />
       <recent name="com.imooc.service.impl" />
       <recent name="com.imooc.service" />
@@ -89,9 +79,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/tianhuihuang/Desktop/foodie" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/.." />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Application" />
+        <item itemvalue="Gradle./Users/tianhuihuang/Desktop/foodie" />
         <item itemvalue="Application.MD5Utils" />
       </list>
     </recent_temporary>
@@ -114,6 +124,11 @@
           <url>file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java</url>
           <line>55</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,5 +1,6 @@
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-api/src/main/java/com/imooc/config/CorsConfig.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java
+/Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/PassportController.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-api/src/main/java/com/imooc/config/Swagger2.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/StuFooController.java

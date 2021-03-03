@@ -1,5 +1,7 @@
 package com.imooc.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.Column;
 import javax.persistence.Id;
 import java.util.Date;
@@ -8,17 +10,21 @@ public class Users {
     /**
      * 主键id 用户id
      */
-    @Id
+//    @Id
     private String id;
 
     /**
      * 用户名 用户名
+     * json 封装的时候，就不会显示出来
      */
+
+//    @JsonIgnore
     private String username;
 
     /**
      * 密码 密码
      */
+    @JsonIgnore
     private String password;
 
     /**

@@ -1,0 +1,16 @@
+2021-03-02 23:04:05 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-03-02 23:04:05 INFO  DispatcherServlet:547 - Completed initialization in 14 ms
+2021-03-02 23:04:05 INFO  ServiceLogAspect:52 - ====== start ========
+2021-03-02 23:04:05 INFO  ServiceLogAspect:52 - ====== start ========
+2021-03-02 23:04:05 INFO  ServiceLogAspect:52 - ====== start ========
+2021-03-02 23:04:05 INFO  ServiceLogAspect:52 - ====== start ========
+2021-03-02 23:04:05 INFO  ServiceLogAspect:56 - ====== 开始执行 class com.imooc.service.impl.UserServiceImpl.queryUsernameIsExist ======
+2021-03-02 23:04:05 INFO  ServiceLogAspect:56 - ====== 开始执行 class com.imooc.service.impl.UserServiceImpl.queryUsernameIsExist ======
+2021-03-02 23:04:05 INFO  ServiceLogAspect:56 - ====== 开始执行 class com.imooc.service.impl.UserServiceImpl.queryUsernameIsExist ======
+2021-03-02 23:04:05 INFO  ServiceLogAspect:56 - ====== 开始执行 class com.imooc.service.impl.UserServiceImpl.queryUsernameIsExist ======
+2021-03-02 23:04:05 INFO  HikariDataSource:110 - DateSourceHikariCP - Starting...
+2021-03-02 23:04:05 INFO  HikariDataSource:123 - DateSourceHikariCP - Start completed.
+2021-03-02 23:04:05 INFO  ServiceLogAspect:74 - ====end, takes: 491 ms====
+2021-03-02 23:04:05 INFO  ServiceLogAspect:74 - ====end, takes: 492 ms====
+2021-03-02 23:04:05 INFO  ServiceLogAspect:74 - ====end, takes: 491 ms====
+2021-03-02 23:04:05 INFO  ServiceLogAspect:74 - ====end, takes: 492 ms====

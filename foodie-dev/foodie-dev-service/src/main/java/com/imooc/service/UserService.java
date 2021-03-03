@@ -14,4 +14,6 @@ public interface UserService {
     // 前端传过来的
     public Users createUser(UserBo userBo);
 
+    public Users queryUserForLogin(String username, String password);
+
 }

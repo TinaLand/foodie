@@ -1,4 +1,5 @@
 org/n3r/idworker/DayCode.class
+com/imooc/utils/JsonUtils.class
 org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class
 org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class
 org/n3r/idworker/utils/Ip.class
@@ -12,6 +13,7 @@ org/n3r/idworker/Code.class
 org/n3r/idworker/utils/IPv4Utils.class
 org/n3r/idworker/strategy/DefaultRandomCodeStrategy$1.class
 org/n3r/idworker/IdWorker.class
+com/imooc/utils/CookieUtils.class
 org/n3r/idworker/Test.class
 org/n3r/idworker/utils/HttpReq.class
 org/n3r/idworker/utils/Props.class

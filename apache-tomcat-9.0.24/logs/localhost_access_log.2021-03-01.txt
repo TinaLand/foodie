@@ -49,3 +49,13 @@
 0:0:0:0:0:0:0:1 - - [01/Mar/2021:22:53:37 -0500] "GET /foodie-shop/images/sys_item_selected.gif HTTP/1.1" 200 70
 0:0:0:0:0:0:0:1 - - [01/Mar/2021:22:53:48 -0500] "GET /foodie-shop/item.html?itemId=cake-1003 HTTP/1.1" 200 27178
 0:0:0:0:0:0:0:1 - - [01/Mar/2021:22:53:54 -0500] "GET /foodie-shop/images/mask.png HTTP/1.1" 200 158
+0:0:0:0:0:0:0:1 - - [01/Mar/2021:23:16:21 -0500] "GET /foodie-shop/login.html HTTP/1.1" 200 4609
+0:0:0:0:0:0:0:1 - - [01/Mar/2021:23:16:21 -0500] "GET /foodie-shop/css/dlstyle.css HTTP/1.1" 200 5261
+0:0:0:0:0:0:0:1 - - [01/Mar/2021:23:16:21 -0500] "GET /foodie-shop/img/loginpage.png HTTP/1.1" 200 29987
+0:0:0:0:0:0:0:1 - - [01/Mar/2021:23:16:31 -0500] "GET /foodie-shop/register.html?returnUrl= HTTP/1.1" 200 6851
+0:0:0:0:0:0:0:1 - - [01/Mar/2021:23:16:31 -0500] "GET /foodie-shop/AmazeUI-2.4.2/assets/css/amazeui.min.css HTTP/1.1" 200 247008
+0:0:0:0:0:0:0:1 - - [01/Mar/2021:23:16:31 -0500] "GET /foodie-shop/img/registpage.png HTTP/1.1" 200 36964
+0:0:0:0:0:0:0:1 - - [01/Mar/2021:23:17:32 -0500] "GET /foodie-shop/index.html HTTP/1.1" 200 24328
+0:0:0:0:0:0:0:1 - - [01/Mar/2021:23:38:32 -0500] "GET /foodie-shop/index.html HTTP/1.1" 200 24328
+0:0:0:0:0:0:0:1 - - [01/Mar/2021:23:38:34 -0500] "GET /foodie-shop/register.html HTTP/1.1" 200 6851
+0:0:0:0:0:0:0:1 - - [01/Mar/2021:23:38:37 -0500] "GET /foodie-shop/login.html?returnUrl= HTTP/1.1" 200 4609

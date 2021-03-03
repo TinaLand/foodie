@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="" />
+    <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.24/logs/localhost_access_log.2021-03-01.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.24/logs/localhost_access_log.2021-03-01.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.24/webapps/foodie-shop/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.24/webapps/foodie-shop/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.24/webapps/foodie-shop/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.24/webapps/foodie-shop/login.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-common/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/foodie-dev-api/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -39,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/foodie-dev-api/src/main/resources" />
+      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/utils" />
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java" />
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/strategy" />
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/utils" />
-      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r" />
-      <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/com/imooc/utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.controller" />
@@ -99,21 +103,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/PassportController.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java</url>
           <line>55</line>

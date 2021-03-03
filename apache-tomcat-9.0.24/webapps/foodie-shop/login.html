@@ -126,6 +126,7 @@
 					// console.log(axios.defaults);
 					axios.post(serverUrl + '/passport/login', userBO)
 						.then(res => {
+							debugger;
 							if (res.data.status == 200) {
 								var user = res.data;
 								// console.log(user);

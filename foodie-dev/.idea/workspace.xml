@@ -46,10 +46,10 @@
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/utils" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.imooc.enums" />
-      <recent name="com.imooc.controller" />
       <recent name="com.imooc.service.impl" />
       <recent name="com.imooc.service" />
+      <recent name="com.imooc.enums" />
+      <recent name="com.imooc.controller" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application">
@@ -127,8 +127,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java</url>
-          <line>34</line>
+          <line>40</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

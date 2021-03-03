@@ -2,7 +2,9 @@ package com.imooc.controller;
 
 import com.imooc.enums.YesOrNo;
 import com.imooc.pojo.Carousel;
+import com.imooc.pojo.Category;
 import com.imooc.service.CarouselService;
+import com.imooc.service.CategoryService;
 import com.imooc.utils.IMOOCJSONResult;
 import com.imooc.utils.JsonUtils;
 import io.swagger.annotations.Api;
@@ -28,11 +30,26 @@ public class IndexController {
     @Autowired
     private CarouselService carouselService;
 
+    @Autowired
+    private CategoryService categoryService;
+
     @ApiOperation(value = "get index page carousel", notes = "get index page carousel", httpMethod = "GET")
     //@GetMapping("/index")
-    @GetMapping("carousel")
+    //@GetMapping("carousel")
+    @GetMapping("/carousel")
     public IMOOCJSONResult carousel() {
         List<Carousel> list = carouselService.queryAll(YesOrNo.YES.type);
+        //return IMOOCJSONResult.ok(JsonUtils.);
+        return IMOOCJSONResult.ok(list);
+    }
+
+
+    @ApiOperation(value = "get category", notes = "get category", httpMethod = "GET")
+    //@GetMapping("/index")
+    //@GetMapping("category") // should match with front end
+    @GetMapping("/cats")
+    public IMOOCJSONResult category() {
+        List<Category> list = categoryService.queryAllRootLevelCat();
         //return IMOOCJSONResult.ok(JsonUtils.);
         return IMOOCJSONResult.ok(list);
     }

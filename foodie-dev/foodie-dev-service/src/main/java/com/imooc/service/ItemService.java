@@ -19,5 +19,7 @@ public interface ItemService {
     public ItemsParam queryItemParam(String itemId);
     public CommentLevelCountsVO queryCommentCounts(String itemId);
     public PagedGridResult queryPageComments(String itemId, Integer level, Integer page, Integer pageSize);
+    public PagedGridResult searchItems(String keyWords, String sort, Integer page, Integer pageSize);
+    public PagedGridResult searchItems(Integer catId, String sort, Integer page, Integer pageSize);
 
 }

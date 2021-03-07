@@ -5,10 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.imooc.enums.CommentLevel;
 import com.imooc.mapper.*;
 import com.imooc.pojo.*;
-import com.imooc.pojo.vo.CategoryVO;
-import com.imooc.pojo.vo.CommentLevelCountsVO;
-import com.imooc.pojo.vo.ItemCommentVO;
-import com.imooc.pojo.vo.NewItemsVO;
+import com.imooc.pojo.vo.*;
 import com.imooc.service.CategoryService;
 import com.imooc.service.ItemService;
 import com.imooc.utils.DesensitizationUtil;
@@ -119,12 +116,11 @@ public class ItemServiceImpl implements ItemService {
 
         for (ItemCommentVO vo : list) {
             vo.setNickname(DesensitizationUtil.commonDisplay(vo.getNickname()));
-
-
         }
         return setterPagedGrid(list, page);
     }
 
+    @Transactional(propagation = Propagation.SUPPORTS)
     private PagedGridResult setterPagedGrid(List<?> list, Integer page) {
         /**
          * 这样抽离出来是为了， 前端不直接改后端的数据
@@ -135,9 +131,31 @@ public class ItemServiceImpl implements ItemService {
         grid.setRows(list);
         grid.setTotal(pageList.getPages());
         grid.setRecords(pageList.getTotal());
-
         return grid;
+    }
 
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public PagedGridResult searchItems(String keyWords, String sort, Integer page, Integer pageSize) {
+        Map<String, Object> map = new HashMap<>();
+        map.put("keyWords", keyWords);
+        map.put("sort", sort);
+        PageHelper.startPage(page, pageSize);
+
+        List<SearchItemsVO> list = itemsMapperCustom.searchItems(map);
+        return setterPagedGrid(list, page);
+    }
+
+    @Transactional(propagation = Propagation.SUPPORTS)
+    @Override
+    public PagedGridResult searchItems(Integer catId, String sort, Integer page, Integer pageSize) {
+        Map<String, Object> map = new HashMap<>();
+        map.put("catId", catId);
+        map.put("sort", sort);
+        PageHelper.startPage(page, pageSize);
+
+        List<SearchItemsVO> list = itemsMapperCustom.searchItemsByThirdCat(map);
+        return setterPagedGrid(list, page);
     }
 
 }

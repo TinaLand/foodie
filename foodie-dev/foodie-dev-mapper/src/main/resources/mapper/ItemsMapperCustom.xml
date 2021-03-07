@@ -24,4 +24,113 @@
       </if>
 
   </select>
+
+
+
+  <select id = "searchItems" parameterType="Map" resultType="com.imooc.pojo.vo.SearchItemsVO">
+    SELECT
+    i.id as itemId,
+    i.item_name as itemName,
+    i.sell_counts as sellCounts,
+    ii.url as imgUrl,
+    tempSpec.price_discount as price
+
+    From
+    `foodie-shop-dev`.items i
+    LEFT JOIN
+    `foodie-shop-dev`.items_img ii
+    ON
+    i.id = ii.item_id
+    LEFT JOIN
+    (
+
+    SELECT
+    item_id, MIN(price_discount) as price_discount
+    FROM
+    `foodie-shop-dev`.items_spec
+    GROUP BY
+    item_id
+    ) tempSpec
+
+    ON
+    i.id = tempSpec.item_id
+
+    WHERE
+    ii.is_main = 1;
+
+
+    <if test=" paramsMap.keyWords != null and aramsMap.keyWords != '' ">
+      AND i.item_name like '%${paramsMap.keyWords}%'
+    </if>
+    order by
+    <choose>
+<!--      <when test=" paramsMap.sort == 'c' ">-->
+      <when test=" paramsMap.sort == &quot;c&quot; ">
+      i.sell_counts desc
+      </when>
+
+      <when test=" paramsMap.sort ==  &quot;p&quot; ">
+        tempSpec.price_discount asc
+      </when>
+      <otherwise>
+        i.item_name asc
+      </otherwise>
+    </choose>
+
+
+  <select id = "searchItemsByThirdCat" parameterType="Map" resultType="com.imooc.pojo.vo.SearchItemsVO">
+    SELECT
+    i.id as itemId,
+    i.item_name as itemName,
+    i.sell_counts as sellCounts,
+    ii.url as imgUrl,
+    tempSpec.price_discount as price
+
+    From
+    `foodie-shop-dev`.items i
+    LEFT JOIN
+    `foodie-shop-dev`.items_img ii
+    ON
+    i.id = ii.item_id
+    LEFT JOIN
+    (
+
+    SELECT
+    item_id, MIN(price_discount) as price_discount
+    FROM
+    `foodie-shop-dev`.items_spec
+    GROUP BY
+    item_id
+    ) tempSpec
+
+    ON
+    i.id = tempSpec.item_id
+
+    WHERE
+      ii.is_main = 1;
+      and
+      i.cat_id = #{paramsMap.catId}
+
+
+    <if test=" paramsMap.keyWords != null and aramsMap.keyWords != '' ">
+      AND i.item_name like '%${paramsMap.keyWords}%'
+    </if>
+    order by
+    <choose>
+      <!--      <when test=" paramsMap.sort == 'c' ">-->
+      <when test=" paramsMap.sort == &quot;c&quot; ">
+        i.sell_counts desc
+      </when>
+
+      <when test=" paramsMap.sort ==  &quot;p&quot; ">
+        tempSpec.price_discount asc
+      </when>
+      <otherwise>
+        i.item_name asc
+      </otherwise>
+    </choose>
+
+  </select>
+
+
 </mapper>

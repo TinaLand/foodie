@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="" />
+    <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.43/logs/localhost_access_log.2021-03-07.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.43/logs/localhost_access_log.2021-03-07.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,8 +66,8 @@
       <recent name="$PROJECT_DIR$/foodie-dev-common/src/main/java/org/n3r/strategy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.imooc.controller" />
       <recent name="com.imooc.pojo.vo" />
+      <recent name="com.imooc.controller" />
       <recent name="com.imooc.mapper" />
       <recent name="com.imooc.enums" />
       <recent name="com.imooc.service.impl" />

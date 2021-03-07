@@ -107,5 +107,72 @@ public class ItemsController extends BaseController {
         return IMOOCJSONResult.ok(pagedGridResult);
     }
 
+    @ApiOperation(value = "search item list", notes = "search item list", httpMethod = "GET")
+    @GetMapping("/search")
+    public IMOOCJSONResult search(
+
+            @ApiParam(name = "keyWords", value = "keyWords", required = true)
+            @RequestParam String keyWords,
+
+            @ApiParam(name = "sort", value = "sort order", required = false)
+            @RequestParam String sort,
+
+            @ApiParam(name = "page", value = "check next page", required = false)
+            @RequestParam Integer page,
+
+            @ApiParam(name = "size in each page", value = "size in each page", required = false)
+            @RequestParam Integer pageSize) {
+
+        if (StringUtils.isBlank(keyWords)) {
+            //return IMOOCJSONResult.errorMsg("item id does not exist");
+            return IMOOCJSONResult.errorMsg(null);
+        }
+
+        if (page == null) {
+            page = 1;
+        }
+
+        if (pageSize == null) {
+            pageSize = PAGE_SIZE;
+        }
+
+        PagedGridResult pagedGridResult = itemService.searchItems(keyWords, sort, page, pageSize);
+        return IMOOCJSONResult.ok(pagedGridResult);
+    }
+
+
+    @ApiOperation(value = "search item list by categoryId", notes = "search item list by categoryId", httpMethod = "GET")
+    @GetMapping("/catItems")
+    public IMOOCJSONResult catItems(
+
+            @ApiParam(name = "catId", value = "catId", required = true)
+            @RequestParam Integer catId,
+
+            @ApiParam(name = "sort", value = "sort order", required = false)
+            @RequestParam String sort,
+
+            @ApiParam(name = "page", value = "check next page", required = false)
+            @RequestParam Integer page,
+
+            @ApiParam(name = "size in each page", value = "size in each page", required = false)
+            @RequestParam Integer pageSize) {
+
+        if (catId == null) {
+            //return IMOOCJSONResult.errorMsg("item id does not exist");
+            return IMOOCJSONResult.errorMsg(null);
+        }
+
+        if (page == null) {
+            page = 1;
+        }
+
+        if (pageSize == null) {
+            pageSize = PAGE_SIZE;
+        }
+
+        PagedGridResult pagedGridResult = itemService.searchItems(catId, sort, page, pageSize);
+        return IMOOCJSONResult.ok(pagedGridResult);
+    }
+
 
 }

@@ -4,6 +4,7 @@
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/org/n3r/idworker/DayCode.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/com/imooc/utils/JsonUtils.java
+/Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/com/imooc/enums/CommentLevel.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/com/imooc/enums/Sex.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/org/n3r/idworker/utils/Props.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/org/n3r/idworker/Id.java
@@ -15,9 +16,11 @@
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/com/imooc/utils/DateUtil.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/org/n3r/idworker/Sid.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/com/imooc/enums/YesOrNo.java
+/Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/com/imooc/utils/PagedGridResult.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/com/imooc/utils/CookieUtils.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/FileLock.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/com/imooc/utils/IMOOCJSONResult.java
+/Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/com/imooc/utils/DesensitizationUtil.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/org/n3r/idworker/utils/IPv4Utils.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/org/n3r/idworker/strategy/DefaultRandomCodeStrategy.java
 /Users/tianhuihuang/Desktop/foodie/foodie-dev/foodie-dev-common/src/main/java/org/n3r/idworker/InvalidSystemClock.java

@@ -102,7 +102,6 @@ public class PassportController {
 
     @ApiOperation(value = "user login", notes = "user login", httpMethod = "POST")
     @PostMapping("/login")
-    //public IMOOCJSONResult regist(UserBo userBo) {
     public IMOOCJSONResult login(@RequestBody UserBo userBo,
                                 HttpServletRequest request,
                                         HttpServletResponse response) throws Exception {
@@ -133,6 +132,9 @@ public class PassportController {
 
         setNullProperty(user);
         CookieUtils.setCookie(request, response, "user", JsonUtils.objectToJson(user), true);
+
+        // todo: generate user token, store in redis
+        // todo: sync shopping cart data
 
         return IMOOCJSONResult.ok(user);
     }

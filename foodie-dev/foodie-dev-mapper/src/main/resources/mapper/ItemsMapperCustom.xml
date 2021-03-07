@@ -76,6 +76,7 @@
         i.item_name asc
       </otherwise>
     </choose>
+  </select>
 
 
   <select id = "searchItemsByThirdCat" parameterType="Map" resultType="com.imooc.pojo.vo.SearchItemsVO">

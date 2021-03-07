@@ -556,6 +556,7 @@
 				addToCart() {
 					// 由于cookie大小限制为4k，另外课程第一阶段是没有redis的，所以相关暂存性内容会存入到cookie中
 					var shopcartCounts = app.getShopcartItemCounts();
+					debugger;
 					if (shopcartCounts >= 8) {
 						alert("您购物车中的食物太多啦~请把它们带回家吧~！");
 						return;

@@ -4,6 +4,7 @@ import com.imooc.enums.YesOrNo;
 import com.imooc.pojo.Carousel;
 import com.imooc.pojo.Category;
 import com.imooc.pojo.vo.CategoryVO;
+import com.imooc.pojo.vo.NewItemsVO;
 import com.imooc.service.CarouselService;
 import com.imooc.service.CategoryService;
 import com.imooc.utils.IMOOCJSONResult;
@@ -73,6 +74,22 @@ public class IndexController {
         }
         List<CategoryVO> list = categoryService.getSubCatList(rootCatId);
         //return IMOOCJSONResult.ok(JsonUtils.);
+        return IMOOCJSONResult.ok(list);
+    }
+
+
+    @ApiOperation(value = "get each of father category top 6 items", notes = "get each of father category top 6 items", httpMethod = "GET")
+    //@GetMapping("/index")
+    //@GetMapping("category") // should match with front end
+    @GetMapping("/sixNewItems/{rootCatId}")
+    public IMOOCJSONResult sixNewItems(
+            @ApiParam(name = "rootCatId", value = "first category Id", required = true)
+            @PathVariable Integer rootCatId) {
+
+        if (rootCatId == null) {
+            return IMOOCJSONResult.errorMsg("category does not exists");
+        }
+        List<NewItemsVO> list = categoryService.getSixNewItemsLazy(rootCatId);
         return IMOOCJSONResult.ok(list);
     }
 }

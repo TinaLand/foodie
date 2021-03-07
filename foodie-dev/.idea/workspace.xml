@@ -47,10 +47,10 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.imooc.pojo.vo" />
-      <recent name="com.imooc.mapper" />
+      <recent name="com.imooc.controller" />
       <recent name="com.imooc.service.impl" />
       <recent name="com.imooc.service" />
-      <recent name="com.imooc.enums" />
+      <recent name="com.imooc.mapper" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application">
@@ -125,6 +125,11 @@
           <url>file://$PROJECT_DIR$/foodie-dev-service/src/main/java/com/imooc/service/impl/UserServiceImpl.java</url>
           <line>55</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/foodie-dev-api/src/main/java/com/imooc/controller/IndexController.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

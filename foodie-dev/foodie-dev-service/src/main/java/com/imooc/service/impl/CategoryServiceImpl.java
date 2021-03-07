@@ -3,6 +3,7 @@ package com.imooc.service.impl;
 import com.imooc.mapper.CarouselMapper;
 import com.imooc.mapper.CategoryMapper;
 import com.imooc.mapper.CategoryMapperCustom;
+import com.imooc.mapper.ItemsMapper;
 import com.imooc.pojo.Carousel;
 import com.imooc.pojo.Category;
 import com.imooc.pojo.vo.CategoryVO;

@@ -52,7 +52,7 @@ public class ItemsController {
         itemInfoVO.setItems(item);
         itemInfoVO.setItemsImgList(itemsImgList);
         itemInfoVO.setItemsSpecList(itemsSpecList);
-        itemInfoVO.setItemsParam(itemsParam);
+        itemInfoVO.setItemParams(itemsParam);
 
         //return IMOOCJSONResult.ok(IMOOCJSONResult(itemInfoVO));
         return IMOOCJSONResult.ok(itemInfoVO);

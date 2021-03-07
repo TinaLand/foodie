@@ -5,6 +5,7 @@ org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class
 org/n3r/idworker/utils/Ip.class
 org/n3r/idworker/RandomCodeStrategy.class
 org/n3r/idworker/utils/Serializes.class
+com/imooc/enums/CommentLevel.class
 com/imooc/utils/DateUtil.class
 org/n3r/idworker/WorkerIdStrategy.class
 org/n3r/idworker/InvalidSystemClock.class
@@ -22,6 +23,7 @@ com/imooc/enums/YesOrNo.class
 org/n3r/idworker/utils/Utils.class
 org/n3r/idworker/utils/Props$Silent.class
 org/n3r/idworker/strategy/FileLock.class
+com/imooc/utils/PagedGridResult.class
 org/n3r/idworker/strategy/DayPrefixRandomCodeStrategy.class
 org/n3r/idworker/Id.class
 org/n3r/idworker/Sid.class

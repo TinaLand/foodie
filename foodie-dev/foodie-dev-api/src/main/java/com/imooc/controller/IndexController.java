@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import springfox.documentation.annotations.ApiIgnore;
+import tk.mybatis.spring.annotation.MapperScan;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -26,6 +27,7 @@ import java.util.List;
 
 @RestController // json object
 @RequestMapping("index")
+//@MapperScan(basePackages = "com.imooc.mapper")
 @Api(value = "index", tags = {"register and login related apis"})
 public class IndexController {
     //final static Logger logger = LoggerFactory.getLogger(IndexController.class);

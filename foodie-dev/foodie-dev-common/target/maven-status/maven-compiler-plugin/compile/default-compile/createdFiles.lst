@@ -3,6 +3,7 @@ com/imooc/utils/JsonUtils.class
 org/n3r/idworker/strategy/DefaultRandomCodeStrategy.class
 org/n3r/idworker/strategy/DefaultWorkerIdStrategy$2.class
 org/n3r/idworker/utils/Ip.class
+com/imooc/utils/DesensitizationUtil.class
 org/n3r/idworker/RandomCodeStrategy.class
 org/n3r/idworker/utils/Serializes.class
 com/imooc/enums/CommentLevel.class

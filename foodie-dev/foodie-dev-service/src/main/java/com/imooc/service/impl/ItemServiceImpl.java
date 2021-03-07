@@ -11,6 +11,7 @@ import com.imooc.pojo.vo.ItemCommentVO;
 import com.imooc.pojo.vo.NewItemsVO;
 import com.imooc.service.CategoryService;
 import com.imooc.service.ItemService;
+import com.imooc.utils.DesensitizationUtil;
 import com.imooc.utils.PagedGridResult;
 import io.swagger.models.auth.In;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -115,6 +116,12 @@ public class ItemServiceImpl implements ItemService {
         map.put("level", level);
         PageHelper.startPage(page, pageSize);
         List<ItemCommentVO> list = itemsMapperCustom.queryItemComments(map);
+
+        for (ItemCommentVO vo : list) {
+            vo.setNickname(DesensitizationUtil.commonDisplay(vo.getNickname()));
+
+
+        }
         return setterPagedGrid(list, page);
     }
 

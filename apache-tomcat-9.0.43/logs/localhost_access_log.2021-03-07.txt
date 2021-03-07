@@ -94,3 +94,6 @@
 0:0:0:0:0:0:0:1 - - [07/Mar/2021:10:15:44 -0500] "GET /foodie-shop/item.html?itemId=cake-1004 HTTP/1.1" 200 27178
 0:0:0:0:0:0:0:1 - - [07/Mar/2021:10:16:05 -0500] "GET /foodie-shop/item.html?itemId=meat-1006 HTTP/1.1" 200 27178
 0:0:0:0:0:0:0:1 - - [07/Mar/2021:10:16:13 -0500] "GET /foodie-shop/item.html?itemId=snacks-1005 HTTP/1.1" 200 27178
+0:0:0:0:0:0:0:1 - - [07/Mar/2021:10:28:33 -0500] "GET /foodie-shop/index.html HTTP/1.1" 200 24328
+0:0:0:0:0:0:0:1 - - [07/Mar/2021:10:28:46 -0500] "GET /foodie-shop/item.html?itemId=bingan-1006 HTTP/1.1" 200 27178
+0:0:0:0:0:0:0:1 - - [07/Mar/2021:10:28:56 -0500] "GET /foodie-shop/item.html?itemId=bingan-1001 HTTP/1.1" 200 27178

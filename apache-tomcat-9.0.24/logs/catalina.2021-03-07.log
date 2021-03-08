@@ -1,0 +1,597 @@
+07-Mar-2021 19:14:22.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.24
+07-Mar-2021 19:14:22.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 21:16:42 UTC
+07-Mar-2021 19:14:22.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.24.0
+07-Mar-2021 19:14:22.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Mar-2021 19:14:22.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+07-Mar-2021 19:14:22.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Mar-2021 19:14:22.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/Home
+07-Mar-2021 19:14:22.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+07-Mar-2021 19:14:22.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2021 19:14:22.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:14:22.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:14:22.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2021 19:14:22.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2021 19:14:22.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2021 19:14:22.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/conf/logging.properties
+07-Mar-2021 19:14:22.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2021 19:14:22.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2021 19:14:22.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2021 19:14:22.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Mar-2021 19:14:22.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2021 19:14:22.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:14:22.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:14:22.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/temp
+07-Mar-2021 19:14:22.564 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tianhuihuang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Mar-2021 19:14:22.773 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:14:22.804 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+07-Mar-2021 19:14:22.805 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:14:22.819 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [455] milliseconds
+07-Mar-2021 19:14:22.849 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2021 19:14:22.849 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.24]
+07-Mar-2021 19:14:22.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs]
+07-Mar-2021 19:14:23.065 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs] has finished in [209] ms
+07-Mar-2021 19:14:23.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager]
+07-Mar-2021 19:14:23.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager] has finished in [28] ms
+07-Mar-2021 19:14:23.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples]
+07-Mar-2021 19:14:23.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples] has finished in [226] ms
+07-Mar-2021 19:14:23.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT]
+07-Mar-2021 19:14:23.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT] has finished in [14] ms
+07-Mar-2021 19:14:23.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop]
+07-Mar-2021 19:14:23.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop] has finished in [18] ms
+07-Mar-2021 19:14:23.355 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager]
+07-Mar-2021 19:14:23.372 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager] has finished in [17] ms
+07-Mar-2021 19:14:23.374 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:14:23.380 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [561] milliseconds
+07-Mar-2021 19:14:23.387 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.Net.bind(Net.java:539)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:396)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:282)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+07-Mar-2021 19:14:23.388 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:14:23.388 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:14:23.400 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2021 19:14:23.418 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:14:23.420 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:14:23.420 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:14:23.420 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:18:32.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.24
+07-Mar-2021 19:18:32.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 21:16:42 UTC
+07-Mar-2021 19:18:32.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.24.0
+07-Mar-2021 19:18:32.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Mar-2021 19:18:32.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+07-Mar-2021 19:18:32.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Mar-2021 19:18:32.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/Home
+07-Mar-2021 19:18:32.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+07-Mar-2021 19:18:32.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2021 19:18:32.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:18:32.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:18:32.302 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2021 19:18:32.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2021 19:18:32.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2021 19:18:32.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/conf/logging.properties
+07-Mar-2021 19:18:32.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2021 19:18:32.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2021 19:18:32.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2021 19:18:32.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Mar-2021 19:18:32.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2021 19:18:32.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:18:32.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:18:32.304 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/temp
+07-Mar-2021 19:18:32.304 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tianhuihuang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Mar-2021 19:18:32.506 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:18:32.536 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+07-Mar-2021 19:18:32.538 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:18:32.550 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [446] milliseconds
+07-Mar-2021 19:18:32.579 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2021 19:18:32.579 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.24]
+07-Mar-2021 19:18:32.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs]
+07-Mar-2021 19:18:32.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs] has finished in [205] ms
+07-Mar-2021 19:18:32.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager]
+07-Mar-2021 19:18:32.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager] has finished in [27] ms
+07-Mar-2021 19:18:32.817 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples]
+07-Mar-2021 19:18:33.034 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples] has finished in [217] ms
+07-Mar-2021 19:18:33.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT]
+07-Mar-2021 19:18:33.048 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT] has finished in [13] ms
+07-Mar-2021 19:18:33.048 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop]
+07-Mar-2021 19:18:33.067 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop] has finished in [18] ms
+07-Mar-2021 19:18:33.067 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager]
+07-Mar-2021 19:18:33.082 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager] has finished in [15] ms
+07-Mar-2021 19:18:33.084 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:18:33.090 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [540] milliseconds
+07-Mar-2021 19:18:33.097 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.Net.bind(Net.java:539)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:396)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:282)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+07-Mar-2021 19:18:33.098 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:18:33.098 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:18:33.103 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2021 19:18:33.118 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:18:33.120 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:18:33.120 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:18:33.120 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:19:01.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.24
+07-Mar-2021 19:19:01.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 21:16:42 UTC
+07-Mar-2021 19:19:01.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.24.0
+07-Mar-2021 19:19:01.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Mar-2021 19:19:01.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+07-Mar-2021 19:19:01.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Mar-2021 19:19:01.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/Home
+07-Mar-2021 19:19:01.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+07-Mar-2021 19:19:01.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2021 19:19:01.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:19:01.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:19:01.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2021 19:19:01.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2021 19:19:01.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2021 19:19:01.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/conf/logging.properties
+07-Mar-2021 19:19:01.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2021 19:19:01.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2021 19:19:01.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2021 19:19:01.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Mar-2021 19:19:01.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2021 19:19:01.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:19:01.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:19:01.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/temp
+07-Mar-2021 19:19:01.115 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tianhuihuang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Mar-2021 19:19:01.310 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:19:01.338 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+07-Mar-2021 19:19:01.339 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:19:01.350 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [396] milliseconds
+07-Mar-2021 19:19:01.375 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2021 19:19:01.375 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.24]
+07-Mar-2021 19:19:01.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs]
+07-Mar-2021 19:19:01.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs] has finished in [166] ms
+07-Mar-2021 19:19:01.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager]
+07-Mar-2021 19:19:01.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager] has finished in [23] ms
+07-Mar-2021 19:19:01.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples]
+07-Mar-2021 19:19:01.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples] has finished in [180] ms
+07-Mar-2021 19:19:01.751 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT]
+07-Mar-2021 19:19:01.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT] has finished in [12] ms
+07-Mar-2021 19:19:01.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop]
+07-Mar-2021 19:19:01.781 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop] has finished in [17] ms
+07-Mar-2021 19:19:01.781 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager]
+07-Mar-2021 19:19:01.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager] has finished in [14] ms
+07-Mar-2021 19:19:01.798 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:19:01.803 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [453] milliseconds
+07-Mar-2021 19:19:01.810 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.Net.bind(Net.java:539)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:396)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:282)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+07-Mar-2021 19:19:01.810 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:19:01.810 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:19:01.815 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2021 19:19:01.831 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:19:01.833 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:19:01.833 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:19:01.833 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:19:11.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.24
+07-Mar-2021 19:19:11.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 21:16:42 UTC
+07-Mar-2021 19:19:11.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.24.0
+07-Mar-2021 19:19:11.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Mar-2021 19:19:11.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+07-Mar-2021 19:19:11.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Mar-2021 19:19:11.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/Home
+07-Mar-2021 19:19:11.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+07-Mar-2021 19:19:11.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2021 19:19:11.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:19:11.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:19:11.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2021 19:19:11.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2021 19:19:11.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2021 19:19:11.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/conf/logging.properties
+07-Mar-2021 19:19:11.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2021 19:19:11.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2021 19:19:11.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2021 19:19:11.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Mar-2021 19:19:11.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2021 19:19:11.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:19:11.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:19:11.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/temp
+07-Mar-2021 19:19:11.354 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tianhuihuang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Mar-2021 19:19:11.551 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:19:11.588 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:19:11.590 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [396] milliseconds
+07-Mar-2021 19:19:11.619 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2021 19:19:11.619 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.24]
+07-Mar-2021 19:19:11.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs]
+07-Mar-2021 19:19:11.798 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs] has finished in [174] ms
+07-Mar-2021 19:19:11.799 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager]
+07-Mar-2021 19:19:11.823 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager] has finished in [23] ms
+07-Mar-2021 19:19:11.823 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples]
+07-Mar-2021 19:19:12.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples] has finished in [190] ms
+07-Mar-2021 19:19:12.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT]
+07-Mar-2021 19:19:12.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT] has finished in [16] ms
+07-Mar-2021 19:19:12.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop]
+07-Mar-2021 19:19:12.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop] has finished in [21] ms
+07-Mar-2021 19:19:12.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager]
+07-Mar-2021 19:19:12.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager] has finished in [17] ms
+07-Mar-2021 19:19:12.070 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:19:12.075 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:19:12.078 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [487] milliseconds
+07-Mar-2021 19:20:22.107 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/conf/tomcat-users.xml]
+07-Mar-2021 19:20:22.110 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+07-Mar-2021 19:20:22.122 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/foodie-shop]
+07-Mar-2021 19:20:22.125 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+07-Mar-2021 19:20:22.129 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+07-Mar-2021 19:20:22.133 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+07-Mar-2021 19:20:22.137 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+07-Mar-2021 19:20:22.139 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs]
+07-Mar-2021 19:20:22.166 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs] has finished in [27] ms
+07-Mar-2021 19:20:22.167 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager]
+07-Mar-2021 19:20:22.188 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager] has finished in [21] ms
+07-Mar-2021 19:20:22.188 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples]
+07-Mar-2021 19:20:22.313 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples] has finished in [125] ms
+07-Mar-2021 19:20:22.314 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT]
+07-Mar-2021 19:20:22.329 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT] has finished in [15] ms
+07-Mar-2021 19:20:22.330 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop]
+07-Mar-2021 19:20:22.343 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop] has finished in [14] ms
+07-Mar-2021 19:20:22.344 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager]
+07-Mar-2021 19:20:22.361 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager] has finished in [18] ms
+07-Mar-2021 19:20:46.855 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.24
+07-Mar-2021 19:20:46.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 21:16:42 UTC
+07-Mar-2021 19:20:46.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.24.0
+07-Mar-2021 19:20:46.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Mar-2021 19:20:46.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+07-Mar-2021 19:20:46.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Mar-2021 19:20:46.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/Home
+07-Mar-2021 19:20:46.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+07-Mar-2021 19:20:46.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2021 19:20:46.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:20:46.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:20:46.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2021 19:20:46.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2021 19:20:46.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2021 19:20:46.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/conf/logging.properties
+07-Mar-2021 19:20:46.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2021 19:20:46.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2021 19:20:46.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2021 19:20:46.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Mar-2021 19:20:46.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2021 19:20:46.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:20:46.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:20:46.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/temp
+07-Mar-2021 19:20:46.873 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tianhuihuang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Mar-2021 19:20:47.072 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:20:47.101 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+07-Mar-2021 19:20:47.103 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:20:47.104 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+07-Mar-2021 19:20:47.104 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [389] milliseconds
+07-Mar-2021 19:20:47.131 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2021 19:20:47.132 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.24]
+07-Mar-2021 19:20:47.137 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs]
+07-Mar-2021 19:20:47.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs] has finished in [168] ms
+07-Mar-2021 19:20:47.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager]
+07-Mar-2021 19:20:47.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager] has finished in [26] ms
+07-Mar-2021 19:20:47.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples]
+07-Mar-2021 19:20:47.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples] has finished in [192] ms
+07-Mar-2021 19:20:47.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT]
+07-Mar-2021 19:20:47.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT] has finished in [14] ms
+07-Mar-2021 19:20:47.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop]
+07-Mar-2021 19:20:47.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop] has finished in [19] ms
+07-Mar-2021 19:20:47.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager]
+07-Mar-2021 19:20:47.571 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager] has finished in [15] ms
+07-Mar-2021 19:20:47.574 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [469] milliseconds
+07-Mar-2021 19:20:47.581 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.Net.bind(Net.java:539)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:396)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:282)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+07-Mar-2021 19:20:47.581 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:20:47.581 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:20:47.581 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2021 19:20:47.596 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:20:47.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:20:47.597 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:20:47.597 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:52:29.693 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.24
+07-Mar-2021 19:52:29.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 14 2019 21:16:42 UTC
+07-Mar-2021 19:52:29.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.24.0
+07-Mar-2021 19:52:29.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Mar-2021 19:52:29.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.6
+07-Mar-2021 19:52:29.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Mar-2021 19:52:29.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/Home
+07-Mar-2021 19:52:29.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           15.0.2+7-27
+07-Mar-2021 19:52:29.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Mar-2021 19:52:29.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:52:29.697 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:52:29.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+07-Mar-2021 19:52:29.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+07-Mar-2021 19:52:29.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+07-Mar-2021 19:52:29.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/conf/logging.properties
+07-Mar-2021 19:52:29.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Mar-2021 19:52:29.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+07-Mar-2021 19:52:29.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+07-Mar-2021 19:52:29.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+07-Mar-2021 19:52:29.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+07-Mar-2021 19:52:29.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:52:29.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24
+07-Mar-2021 19:52:29.713 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/temp
+07-Mar-2021 19:52:29.713 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tianhuihuang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+07-Mar-2021 19:52:29.922 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:52:29.952 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+07-Mar-2021 19:52:29.953 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:52:29.955 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[AJP/1.3-8009]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:533)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1059)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:584)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:304)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:249)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:88)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1137)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:574)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+		... 13 more
+07-Mar-2021 19:52:29.955 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [445] milliseconds
+07-Mar-2021 19:52:29.986 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+07-Mar-2021 19:52:29.986 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.24]
+07-Mar-2021 19:52:29.993 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs]
+07-Mar-2021 19:52:30.203 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/docs] has finished in [210] ms
+07-Mar-2021 19:52:30.204 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager]
+07-Mar-2021 19:52:30.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/manager] has finished in [28] ms
+07-Mar-2021 19:52:30.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples]
+07-Mar-2021 19:52:30.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/examples] has finished in [196] ms
+07-Mar-2021 19:52:30.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT]
+07-Mar-2021 19:52:30.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/ROOT] has finished in [13] ms
+07-Mar-2021 19:52:30.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop]
+07-Mar-2021 19:52:30.462 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/foodie-shop] has finished in [19] ms
+07-Mar-2021 19:52:30.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager]
+07-Mar-2021 19:52:30.477 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/tianhuihuang/Desktop/foodie/apache-tomcat-9.0.24/webapps/host-manager] has finished in [14] ms
+07-Mar-2021 19:52:30.481 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [525] milliseconds
+07-Mar-2021 19:52:30.487 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:550)
+		at java.base/sun.nio.ch.Net.bind(Net.java:539)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:396)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:282)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:584)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:721)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:667)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+07-Mar-2021 19:52:30.488 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:52:30.488 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:52:30.488 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+07-Mar-2021 19:52:30.503 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:52:30.503 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+07-Mar-2021 19:52:30.503 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+07-Mar-2021 19:52:30.503 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

@@ -31,9 +31,9 @@
         c.type as subType,
         c.father_id as subFatherId
         FROM
-        category f
+        `foodie-shop-dev`.category f
         LEFT JOIN
-        category c
+        `foodie-shop-dev`.category c
         on
         f.id = c.father_id
         WHERE
@@ -66,9 +66,9 @@
         ii.url as itemUrl,
         i.created_time as createdTime
         FROM
-        category f
-        LEFT JOIN items i ON f.id = i.root_cat_id
-        LEFT JOIN items_img ii ON i.id = ii.item_id
+        `foodie-shop-dev`.category f
+        LEFT JOIN `foodie-shop-dev`.items i ON f.id = i.root_cat_id
+        LEFT JOIN `foodie-shop-dev`.items_img ii ON i.id = ii.item_id
         WHERE
         f.type = 1
         AND

@@ -43,15 +43,15 @@ public class ItemsController extends BaseController {
         }
 
         Items item = itemService.queryItemById(itemId);
-        List<ItemsImg> itemsImgList = itemService.queryItemImgList(itemId);
-        List<ItemsSpec> itemsSpecList = itemService.queryItemSpecList(itemId);
+        List<ItemsImg> itemImgList = itemService.queryItemImgList(itemId);
+        List<ItemsSpec> itemSpecList = itemService.queryItemSpecList(itemId);
         ItemsParam itemsParam = itemService.queryItemParam(itemId);
 
         // VO is display layer
         ItemInfoVO itemInfoVO = new ItemInfoVO();
-        itemInfoVO.setItems(item);
-        itemInfoVO.setItemsImgList(itemsImgList);
-        itemInfoVO.setItemsSpecList(itemsSpecList);
+        itemInfoVO.setItem(item);
+        itemInfoVO.setItemImgList(itemImgList);
+        itemInfoVO.setItemSpecList(itemSpecList);
         itemInfoVO.setItemParams(itemsParam);
 
         //return IMOOCJSONResult.ok(IMOOCJSONResult(itemInfoVO));

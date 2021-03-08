@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.24/logs/catalina.2021-03-07.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.24/logs/catalina.2021-03-07.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.24/logs/catalina.out" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.24/logs/catalina.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.24/logs/localhost.2021-03-07.log" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.24/logs/localhost.2021-03-07.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../apache-tomcat-9.0.24/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../apache-tomcat-9.0.24/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
-    </list>
+    <list default="true" id="821aacc6-8198-45ec-a9dc-cf38c89c4b6e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

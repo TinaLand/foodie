@@ -108,7 +108,7 @@
     i.id = tempSpec.item_id
 
     WHERE
-      ii.is_main = 1;
+      ii.is_main = 1
       and
       i.cat_id = #{paramsMap.catId}
 

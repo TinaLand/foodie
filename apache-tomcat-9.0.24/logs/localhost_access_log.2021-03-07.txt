@@ -54,3 +54,8 @@
 0:0:0:0:0:0:0:1 - - [07/Mar/2021:21:17:59 -0500] "GET /foodie-shop/img/food.png HTTP/1.1" 200 763
 0:0:0:0:0:0:0:1 - - [07/Mar/2021:21:20:38 -0500] "GET /foodie-shop/ HTTP/1.1" 200 24328
 0:0:0:0:0:0:0:1 - - [07/Mar/2021:21:21:01 -0500] "GET /foodie-shop/ HTTP/1.1" 200 24328
+0:0:0:0:0:0:0:1 - - [07/Mar/2021:21:24:12 -0500] "GET /foodie-shop/ HTTP/1.1" 200 24328
+0:0:0:0:0:0:0:1 - - [07/Mar/2021:21:24:15 -0500] "GET /foodie-shop/login.html HTTP/1.1" 200 4627
+0:0:0:0:0:0:0:1 - - [07/Mar/2021:21:24:15 -0500] "GET /foodie-shop/css/dlstyle.css HTTP/1.1" 200 5261
+0:0:0:0:0:0:0:1 - - [07/Mar/2021:21:24:15 -0500] "GET /foodie-shop/img/loginpage.png HTTP/1.1" 200 29987
+0:0:0:0:0:0:0:1 - - [07/Mar/2021:21:24:19 -0500] "GET /foodie-shop/index.html HTTP/1.1" 200 24328

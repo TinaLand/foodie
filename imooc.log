@@ -1,0 +1,15 @@
+2021-03-07 21:24:13 INFO  ServiceLogAspect:56 - ====== start class com.imooc.service.impl.CarouseServiceImpl.queryAll ========
+2021-03-07 21:24:13 INFO  ServiceLogAspect:56 - ====== start class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat ========
+2021-03-07 21:24:13 INFO  ServiceLogAspect:74 - ====end, takes: 3 ms====
+2021-03-07 21:24:13 INFO  ServiceLogAspect:74 - ====end, takes: 3 ms====
+2021-03-07 21:24:13 INFO  ServiceLogAspect:56 - ====== start class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy ========
+2021-03-07 21:24:13 INFO  ServiceLogAspect:74 - ====end, takes: 3 ms====
+2021-03-07 21:24:19 INFO  ServiceLogAspect:56 - ====== start class com.imooc.service.impl.UserServiceImpl.queryUserForLogin ========
+2021-03-07 21:24:19 INFO  ServiceLogAspect:74 - ====end, takes: 10 ms====
+2021-03-07 21:24:19 INFO  CookieUtils:210 - ========== domainName: localhost ==========
+2021-03-07 21:24:19 INFO  ServiceLogAspect:56 - ====== start class com.imooc.service.impl.CarouseServiceImpl.queryAll ========
+2021-03-07 21:24:19 INFO  ServiceLogAspect:56 - ====== start class com.imooc.service.impl.CategoryServiceImpl.queryAllRootLevelCat ========
+2021-03-07 21:24:19 INFO  ServiceLogAspect:74 - ====end, takes: 3 ms====
+2021-03-07 21:24:19 INFO  ServiceLogAspect:74 - ====end, takes: 6 ms====
+2021-03-07 21:24:19 INFO  ServiceLogAspect:56 - ====== start class com.imooc.service.impl.CategoryServiceImpl.getSixNewItemsLazy ========
+2021-03-07 21:24:19 INFO  ServiceLogAspect:74 - ====end, takes: 3 ms====
